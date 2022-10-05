@@ -144,21 +144,6 @@ header .mode {
     font-weight: 600;
 }
 
-.myPicture {
-    width:22%;
-    height:22%;
-    border: 4px solid var(--myBlack);
-    border-radius: 50px;
-    display: flex;
-    float: right;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-}
-
 .intro h1 {
     font-family: 'Josefin Sans';
     font-size: 300%;
@@ -187,14 +172,6 @@ header .mode {
     display: block;
 }
 
-hr {
-    height:2px;
-    border-width:0;
-    background:var(--myBlack);
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 .skills{
     width: auto;
     display: flex;
@@ -211,10 +188,76 @@ hr {
     padding-right: 10%;
 }
 
-.contacts {
-    display: flex;
+.portfolio h1 {
+    font-family: 'Josefin Sans';
+    font-size: 300%;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    display: table-cell;
+}
+
+.project {
+    width: 100%;
+    border-radius: 25px;
+    background: var(--myOrange);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.project table {
+    width: 100%;
+    padding: 5%;
+}
+
+.project table tr {
+    width: 100%;
+}
+
+.project table tr .text_col {
+    height: 100%;
+    width: 30%;
+    margin-left: 10%;
+    padding-right: 2%;
+}
+
+.project table tr .image_col {
+    height: 100%;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.project table tr .text_col h2 {
+    color: var(--myBlack);
+    font-family: 'Josefin Sans';
+    font-weight: 800;
+    font-size: 170%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project table tr .text_col p {
+    color: var(--myBlack);
+    font-family: 'Josefin Sans';
+    font-weight: 800;
+    font-size: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.project table tr .image_col .slider{
+    float: right;
+}
+
+.contacts {
+    text-align: center;
+    color: var(--myBlack);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .contacts table {
@@ -245,9 +288,32 @@ hr {
     color:var(--myBlack);
 }
 
-.imageig {
-    height: 400px;
-    background-image: url(img/div1.jpeg);
-    background-attachment: fixed;
-    background: rgb(35 39 42);
+hr {
+    width: 100%;
+    height:2px;
+    border-width:0;
+    background:var(--myBlack);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.my_picture {
+    width:22%;
+    height:22%;
+    border: 4px solid var(--myBlack);
+    border-radius: 50px;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.project_image {
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
 }
